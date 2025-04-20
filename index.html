@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hans Florian Simon Kunst</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: black;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    nav {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .text-section, .contact-section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      color: grey;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Hans Florian Simon – Kunst
+</header>
+
+<nav>
+  <a href="#bilder">Bilder</a>
+  <a href="#texte">Texte</a>
+  <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section id="bilder" class="gallery">
+  <img src="bild1.jpg" alt="Kunstwerk 1">
+  <img src="bild2.jpg" alt="Kunstwerk 2">
+  <img src="bild3.jpg" alt="Kunstwerk 3">
+  <!-- Weitere Bilder können einfach hinzugefügt werden -->
+</section>
+
+<section id="texte" class="text-section">
+  <h2>Über meine Arbeit</h2>
+  <p>
+    Hier kannst Du etwas über Deine Kunst erzählen. Über Linien, Stille, Fraktalität, Wachstum... 
+    Der Text bleibt bewusst offen und einladend.
+  </p>
+</section>
+
+<section id="kontakt" class="contact-section">
+  <h2>Kontakt</h2>
+  <p>Du kannst mir eine E-Mail schreiben an: <a href="mailto:florian.simon.berlin@gmail.com">florian.simon.berlin@gmail.com</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Hans Florian Simon
+</footer>
+
+</body>
+</html>
